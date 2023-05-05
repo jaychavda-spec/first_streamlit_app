@@ -1,3 +1,4 @@
+import pandas
 import streamlit
 
 streamlit.title("Fat loss diet for the month of May")
@@ -8,4 +9,5 @@ streamlit.text("🥑 Lunch at 02:00 P.M.")
 streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 streamlit.text("🍞 Dinner at 07:00 P.M.")
 
-
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+streamlit.dataframe(my_fruit_list)
