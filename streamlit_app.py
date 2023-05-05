@@ -1,10 +1,10 @@
 import streamlit
 
-streamlit.title("jay chavda title")
-streamlit.header("jay chavda header")
-streamlit.text("jay chavda")
-streamlit.text("jay chavda")
-streamlit.text("jay chavda")
-streamlit.header("jay chavda title")
-streamlit.title("jay chavda header")
+streamlit.title("Fat loss diet for the month of May")
+streamlit.header("Find below foods")
+streamlit.text("🥣 Breakfast at 09:00 A.M.")
+streamlit.text("🥗 Brunch at 11:00 A.M.")
+streamlit.text("🥑 Lunch at 02:00 P.M.")
+streamlit.text("🍞 Dinner at 07:00 P.M.")
+
 
